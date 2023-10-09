@@ -41,6 +41,10 @@
 		CC161CDE2AD49CFA00C8C9DB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = CC161CDD2AD49CFA00C8C9DB /* FirebaseStorage */; };
 		CC161CE02AD49CFA00C8C9DB /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = CC161CDF2AD49CFA00C8C9DB /* FirebaseStorageCombine-Community */; };
 		CC161CE32AD49D3700C8C9DB /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = CC161CE22AD49D3700C8C9DB /* SocketIO */; };
+		CC161CED2AD4A28F00C8C9DB /* AROneSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC161CE92AD4A28F00C8C9DB /* AROneSans-SemiBold.ttf */; };
+		CC161CEE2AD4A28F00C8C9DB /* AROneSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC161CEA2AD4A28F00C8C9DB /* AROneSans-Regular.ttf */; };
+		CC161CEF2AD4A28F00C8C9DB /* AROneSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC161CEB2AD4A28F00C8C9DB /* AROneSans-Bold.ttf */; };
+		CC161CF02AD4A28F00C8C9DB /* AROneSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC161CEC2AD4A28F00C8C9DB /* AROneSans-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +54,11 @@
 		CC161C9B2AD495A200C8C9DB /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		CC161C9D2AD495A300C8C9DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC161CA02AD495A300C8C9DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC161CE62AD4A26A00C8C9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CC161CE92AD4A28F00C8C9DB /* AROneSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AROneSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		CC161CEA2AD4A28F00C8C9DB /* AROneSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AROneSans-Regular.ttf"; sourceTree = "<group>"; };
+		CC161CEB2AD4A28F00C8C9DB /* AROneSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AROneSans-Bold.ttf"; sourceTree = "<group>"; };
+		CC161CEC2AD4A28F00C8C9DB /* AROneSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AROneSans-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,10 +120,12 @@
 		CC161C962AD495A200C8C9DB /* KitchIN */ = {
 			isa = PBXGroup;
 			children = (
+				CC161CE62AD4A26A00C8C9DB /* Info.plist */,
 				CC161C972AD495A200C8C9DB /* KitchINApp.swift */,
 				CC161C992AD495A200C8C9DB /* ContentView.swift */,
 				CC161C9B2AD495A200C8C9DB /* Item.swift */,
 				CC161C9D2AD495A300C8C9DB /* Assets.xcassets */,
+				CC161CE72AD4A27000C8C9DB /* Resources */,
 				CC161C9F2AD495A300C8C9DB /* Preview Content */,
 			);
 			path = KitchIN;
@@ -126,6 +137,25 @@
 				CC161CA02AD495A300C8C9DB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CC161CE72AD4A27000C8C9DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CC161CE82AD4A27900C8C9DB /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CC161CE82AD4A27900C8C9DB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CC161CEB2AD4A28F00C8C9DB /* AROneSans-Bold.ttf */,
+				CC161CEC2AD4A28F00C8C9DB /* AROneSans-Medium.ttf */,
+				CC161CEA2AD4A28F00C8C9DB /* AROneSans-Regular.ttf */,
+				CC161CE92AD4A28F00C8C9DB /* AROneSans-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,7 +252,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC161CED2AD4A28F00C8C9DB /* AROneSans-SemiBold.ttf in Resources */,
+				CC161CEF2AD4A28F00C8C9DB /* AROneSans-Bold.ttf in Resources */,
+				CC161CF02AD4A28F00C8C9DB /* AROneSans-Medium.ttf in Resources */,
 				CC161CA12AD495A300C8C9DB /* Preview Assets.xcassets in Resources */,
+				CC161CEE2AD4A28F00C8C9DB /* AROneSans-Regular.ttf in Resources */,
 				CC161C9E2AD495A300C8C9DB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,7 +407,9 @@
 				DEVELOPMENT_TEAM = 5RDJS2Z86Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KitchIN/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = KitchIN;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To scan food items for usage";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -405,7 +441,9 @@
 				DEVELOPMENT_TEAM = 5RDJS2Z86Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KitchIN/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = KitchIN;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To scan food items for usage";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
