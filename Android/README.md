@@ -1,2 +1,2 @@
-# KitchIN
-Official KitchIN Source Code - Your Kitchen. Your Way.
+# KitchIN - Android
+Official KitchIN Source Code for Android... Coming Soon!
