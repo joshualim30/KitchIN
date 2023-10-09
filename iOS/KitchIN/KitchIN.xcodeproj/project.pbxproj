@@ -41,7 +41,6 @@
 		CC161CDE2AD49CFA00C8C9DB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = CC161CDD2AD49CFA00C8C9DB /* FirebaseStorage */; };
 		CC161CE02AD49CFA00C8C9DB /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = CC161CDF2AD49CFA00C8C9DB /* FirebaseStorageCombine-Community */; };
 		CC161CE32AD49D3700C8C9DB /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = CC161CE22AD49D3700C8C9DB /* SocketIO */; };
-		CC161CE52AD49FE500C8C9DB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CC161CE42AD49FE500C8C9DB /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +50,6 @@
 		CC161C9B2AD495A200C8C9DB /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		CC161C9D2AD495A300C8C9DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC161CA02AD495A300C8C9DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CC161CE42AD49FE500C8C9DB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +95,6 @@
 		CC161C8B2AD495A200C8C9DB = {
 			isa = PBXGroup;
 			children = (
-				CC161CE42AD49FE500C8C9DB /* .gitignore */,
 				CC161C962AD495A200C8C9DB /* KitchIN */,
 				CC161C952AD495A200C8C9DB /* Products */,
 			);
@@ -226,7 +223,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC161CA12AD495A300C8C9DB /* Preview Assets.xcassets in Resources */,
-				CC161CE52AD49FE500C8C9DB /* .gitignore in Resources */,
 				CC161C9E2AD495A300C8C9DB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
