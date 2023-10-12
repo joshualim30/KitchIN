@@ -45,6 +45,12 @@
 		CC161CEE2AD4A28F00C8C9DB /* AROneSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC161CEA2AD4A28F00C8C9DB /* AROneSans-Regular.ttf */; };
 		CC161CEF2AD4A28F00C8C9DB /* AROneSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC161CEB2AD4A28F00C8C9DB /* AROneSans-Bold.ttf */; };
 		CC161CF02AD4A28F00C8C9DB /* AROneSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC161CEC2AD4A28F00C8C9DB /* AROneSans-Medium.ttf */; };
+		CC294CCF2AD7BDBA0009F340 /* LoadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC294CCE2AD7BDBA0009F340 /* LoadView.swift */; };
+		CC294CD12AD7BDC40009F340 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC294CD02AD7BDC40009F340 /* WelcomeView.swift */; };
+		CC294CD32AD7BDD00009F340 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC294CD22AD7BDD00009F340 /* MainView.swift */; };
+		CC294CD72AD7BF0A0009F340 /* NewHouseholdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC294CD62AD7BF0A0009F340 /* NewHouseholdView.swift */; };
+		CC294CD92AD7BF130009F340 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC294CD82AD7BF130009F340 /* CameraManager.swift */; };
+		CC294CDB2AD7BFE70009F340 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC294CDA2AD7BFE70009F340 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +65,13 @@
 		CC161CEA2AD4A28F00C8C9DB /* AROneSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AROneSans-Regular.ttf"; sourceTree = "<group>"; };
 		CC161CEB2AD4A28F00C8C9DB /* AROneSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AROneSans-Bold.ttf"; sourceTree = "<group>"; };
 		CC161CEC2AD4A28F00C8C9DB /* AROneSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AROneSans-Medium.ttf"; sourceTree = "<group>"; };
+		CC294CCD2AD7BD520009F340 /* KitchIN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KitchIN.entitlements; sourceTree = "<group>"; };
+		CC294CCE2AD7BDBA0009F340 /* LoadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadView.swift; sourceTree = "<group>"; };
+		CC294CD02AD7BDC40009F340 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		CC294CD22AD7BDD00009F340 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CC294CD62AD7BF0A0009F340 /* NewHouseholdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHouseholdView.swift; sourceTree = "<group>"; };
+		CC294CD82AD7BF130009F340 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		CC294CDA2AD7BFE70009F340 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,11 +133,15 @@
 		CC161C962AD495A200C8C9DB /* KitchIN */ = {
 			isa = PBXGroup;
 			children = (
-				CC161CE62AD4A26A00C8C9DB /* Info.plist */,
+				CC294CCD2AD7BD520009F340 /* KitchIN.entitlements */,
 				CC161C972AD495A200C8C9DB /* KitchINApp.swift */,
+				CC294CCB2AD7B97D0009F340 /* Onboarding */,
+				CC294CCC2AD7B9850009F340 /* Main Views */,
 				CC161C992AD495A200C8C9DB /* ContentView.swift */,
 				CC161C9B2AD495A200C8C9DB /* Item.swift */,
 				CC161C9D2AD495A300C8C9DB /* Assets.xcassets */,
+				CC161CE62AD4A26A00C8C9DB /* Info.plist */,
+				CC294CDA2AD7BFE70009F340 /* GoogleService-Info.plist */,
 				CC161CE72AD4A27000C8C9DB /* Resources */,
 				CC161C9F2AD495A300C8C9DB /* Preview Content */,
 			);
@@ -156,6 +173,41 @@
 				CC161CE92AD4A28F00C8C9DB /* AROneSans-SemiBold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CC294CCB2AD7B97D0009F340 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				CC294CCE2AD7BDBA0009F340 /* LoadView.swift */,
+				CC294CD02AD7BDC40009F340 /* WelcomeView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		CC294CCC2AD7B9850009F340 /* Main Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC294CD22AD7BDD00009F340 /* MainView.swift */,
+				CC294CD42AD7BDD40009F340 /* Camera Manager */,
+				CC294CD52AD7BDEA0009F340 /* Household Manager */,
+			);
+			path = "Main Views";
+			sourceTree = "<group>";
+		};
+		CC294CD42AD7BDD40009F340 /* Camera Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CC294CD82AD7BF130009F340 /* CameraManager.swift */,
+			);
+			path = "Camera Manager";
+			sourceTree = "<group>";
+		};
+		CC294CD52AD7BDEA0009F340 /* Household Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CC294CD62AD7BF0A0009F340 /* NewHouseholdView.swift */,
+			);
+			path = "Household Manager";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +310,7 @@
 				CC161CA12AD495A300C8C9DB /* Preview Assets.xcassets in Resources */,
 				CC161CEE2AD4A28F00C8C9DB /* AROneSans-Regular.ttf in Resources */,
 				CC161C9E2AD495A300C8C9DB /* Assets.xcassets in Resources */,
+				CC294CDB2AD7BFE70009F340 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +321,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC294CD72AD7BF0A0009F340 /* NewHouseholdView.swift in Sources */,
+				CC294CD12AD7BDC40009F340 /* WelcomeView.swift in Sources */,
+				CC294CD92AD7BF130009F340 /* CameraManager.swift in Sources */,
+				CC294CD32AD7BDD00009F340 /* MainView.swift in Sources */,
+				CC294CCF2AD7BDBA0009F340 /* LoadView.swift in Sources */,
 				CC161C9A2AD495A200C8C9DB /* ContentView.swift in Sources */,
 				CC161C9C2AD495A200C8C9DB /* Item.swift in Sources */,
 				CC161C982AD495A200C8C9DB /* KitchINApp.swift in Sources */,
@@ -401,14 +459,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KitchIN/KitchIN.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"KitchIN/Preview Content\"";
-				DEVELOPMENT_TEAM = 5RDJS2Z86Z;
+				DEVELOPMENT_TEAM = W6348FRURZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KitchIN/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = KitchIN;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_NSCameraUsageDescription = "To scan food items for usage";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -419,7 +479,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.00.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.joshualim.KitchIN;
+				PRODUCT_BUNDLE_IDENTIFIER = com.creatingreal.KitchIN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -435,14 +495,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KitchIN/KitchIN.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"KitchIN/Preview Content\"";
-				DEVELOPMENT_TEAM = 5RDJS2Z86Z;
+				DEVELOPMENT_TEAM = W6348FRURZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KitchIN/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = KitchIN;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_NSCameraUsageDescription = "To scan food items for usage";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -453,7 +515,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.00.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.joshualim.KitchIN;
+				PRODUCT_BUNDLE_IDENTIFIER = com.creatingreal.KitchIN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
