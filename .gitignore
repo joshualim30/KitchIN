@@ -1,2 +1,5 @@
 # Ignore DS_Store files
 find . -name '.DS_Store' -type f -delete
+
+# Ignore GoogleService-Info.plist files (./iOS/KitchIN/KitchIN/GoogleService-Info.plist)
+/iOS/KitchIN/KitchIN/GoogleService-Info.plist

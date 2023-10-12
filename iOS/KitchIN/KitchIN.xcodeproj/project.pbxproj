@@ -50,7 +50,7 @@
 		CC294CD32AD7BDD00009F340 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC294CD22AD7BDD00009F340 /* MainView.swift */; };
 		CC294CD72AD7BF0A0009F340 /* NewHouseholdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC294CD62AD7BF0A0009F340 /* NewHouseholdView.swift */; };
 		CC294CD92AD7BF130009F340 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC294CD82AD7BF130009F340 /* CameraManager.swift */; };
-		CC294CDB2AD7BFE70009F340 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC294CDA2AD7BFE70009F340 /* GoogleService-Info.plist */; };
+		CC294CDD2AD7C2740009F340 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC294CDC2AD7C2740009F340 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,7 +71,7 @@
 		CC294CD22AD7BDD00009F340 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		CC294CD62AD7BF0A0009F340 /* NewHouseholdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHouseholdView.swift; sourceTree = "<group>"; };
 		CC294CD82AD7BF130009F340 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
-		CC294CDA2AD7BFE70009F340 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CC294CDC2AD7C2740009F340 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,7 +141,7 @@
 				CC161C9B2AD495A200C8C9DB /* Item.swift */,
 				CC161C9D2AD495A300C8C9DB /* Assets.xcassets */,
 				CC161CE62AD4A26A00C8C9DB /* Info.plist */,
-				CC294CDA2AD7BFE70009F340 /* GoogleService-Info.plist */,
+				CC294CDC2AD7C2740009F340 /* GoogleService-Info.plist */,
 				CC161CE72AD4A27000C8C9DB /* Resources */,
 				CC161C9F2AD495A300C8C9DB /* Preview Content */,
 			);
@@ -310,7 +310,7 @@
 				CC161CA12AD495A300C8C9DB /* Preview Assets.xcassets in Resources */,
 				CC161CEE2AD4A28F00C8C9DB /* AROneSans-Regular.ttf in Resources */,
 				CC161C9E2AD495A300C8C9DB /* Assets.xcassets in Resources */,
-				CC294CDB2AD7BFE70009F340 /* GoogleService-Info.plist in Resources */,
+				CC294CDD2AD7C2740009F340 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
