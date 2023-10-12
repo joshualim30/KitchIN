@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CC161C982AD495A200C8C9DB /* KitchINApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC161C972AD495A200C8C9DB /* KitchINApp.swift */; };
-		CC161C9A2AD495A200C8C9DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC161C992AD495A200C8C9DB /* ContentView.swift */; };
-		CC161C9C2AD495A200C8C9DB /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC161C9B2AD495A200C8C9DB /* Item.swift */; };
 		CC161C9E2AD495A300C8C9DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC161C9D2AD495A300C8C9DB /* Assets.xcassets */; };
 		CC161CA12AD495A300C8C9DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC161CA02AD495A300C8C9DB /* Preview Assets.xcassets */; };
 		CC161CA92AD49C8100C8C9DB /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = CC161CA82AD49C8100C8C9DB /* Alamofire */; };
@@ -56,8 +54,6 @@
 /* Begin PBXFileReference section */
 		CC161C942AD495A200C8C9DB /* KitchIN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitchIN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC161C972AD495A200C8C9DB /* KitchINApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchINApp.swift; sourceTree = "<group>"; };
-		CC161C992AD495A200C8C9DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CC161C9B2AD495A200C8C9DB /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		CC161C9D2AD495A300C8C9DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC161CA02AD495A300C8C9DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CC161CE62AD4A26A00C8C9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -137,8 +133,6 @@
 				CC161C972AD495A200C8C9DB /* KitchINApp.swift */,
 				CC294CCB2AD7B97D0009F340 /* Onboarding */,
 				CC294CCC2AD7B9850009F340 /* Main Views */,
-				CC161C992AD495A200C8C9DB /* ContentView.swift */,
-				CC161C9B2AD495A200C8C9DB /* Item.swift */,
 				CC161C9D2AD495A300C8C9DB /* Assets.xcassets */,
 				CC161CE62AD4A26A00C8C9DB /* Info.plist */,
 				CC294CDC2AD7C2740009F340 /* GoogleService-Info.plist */,
@@ -326,8 +320,6 @@
 				CC294CD92AD7BF130009F340 /* CameraManager.swift in Sources */,
 				CC294CD32AD7BDD00009F340 /* MainView.swift in Sources */,
 				CC294CCF2AD7BDBA0009F340 /* LoadView.swift in Sources */,
-				CC161C9A2AD495A200C8C9DB /* ContentView.swift in Sources */,
-				CC161C9C2AD495A200C8C9DB /* Item.swift in Sources */,
 				CC161C982AD495A200C8C9DB /* KitchINApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
