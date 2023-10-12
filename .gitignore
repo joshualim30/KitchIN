@@ -2,6 +2,7 @@
 .DS_Store
 /iOS/.DS_Store
 /iOS/KitchIN/.DS_Store
+/iOS/KitchIN/Resources/.DS_Store
 
 # Ignore GoogleService-Info.plist files (./iOS/KitchIN/KitchIN/GoogleService-Info.plist)
 /iOS/KitchIN/KitchIN/GoogleService-Info.plist
