@@ -49,6 +49,8 @@
 		CC294CD72AD7BF0A0009F340 /* NewHouseholdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC294CD62AD7BF0A0009F340 /* NewHouseholdView.swift */; };
 		CC294CD92AD7BF130009F340 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC294CD82AD7BF130009F340 /* CameraManager.swift */; };
 		CC294CDD2AD7C2740009F340 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC294CDC2AD7C2740009F340 /* GoogleService-Info.plist */; };
+		CCF409562AD9038F005A07E0 /* CustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF409552AD9038F005A07E0 /* CustomViews.swift */; };
+		CCF409582AD909FA005A07E0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF409572AD909FA005A07E0 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,8 @@
 		CC294CD62AD7BF0A0009F340 /* NewHouseholdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHouseholdView.swift; sourceTree = "<group>"; };
 		CC294CD82AD7BF130009F340 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
 		CC294CDC2AD7C2740009F340 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CCF409552AD9038F005A07E0 /* CustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViews.swift; sourceTree = "<group>"; };
+		CCF409572AD909FA005A07E0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +157,8 @@
 		CC161CE72AD4A27000C8C9DB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CCF409572AD909FA005A07E0 /* Extensions.swift */,
+				CCF409552AD9038F005A07E0 /* CustomViews.swift */,
 				CC161CE82AD4A27900C8C9DB /* Fonts */,
 			);
 			path = Resources;
@@ -317,6 +323,8 @@
 			files = (
 				CC294CD72AD7BF0A0009F340 /* NewHouseholdView.swift in Sources */,
 				CC294CD12AD7BDC40009F340 /* WelcomeView.swift in Sources */,
+				CCF409562AD9038F005A07E0 /* CustomViews.swift in Sources */,
+				CCF409582AD909FA005A07E0 /* Extensions.swift in Sources */,
 				CC294CD92AD7BF130009F340 /* CameraManager.swift in Sources */,
 				CC294CD32AD7BDD00009F340 /* MainView.swift in Sources */,
 				CC294CCF2AD7BDBA0009F340 /* LoadView.swift in Sources */,
