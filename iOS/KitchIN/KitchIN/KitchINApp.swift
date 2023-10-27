@@ -111,8 +111,8 @@ struct KitchINApp: App {
         
         WindowGroup {
             
-            ContentView()
-                .modelContainer(for: [Item.self])
+            LoadView()
+//                .modelContainer(for: [Item.self])
             
         }
         
