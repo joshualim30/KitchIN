@@ -1,0 +1,204 @@
+{
+    "errors": [
+		{
+			"errorTitle": "Developmental Feature",
+			"statusCode": 0
+		},
+		{
+			"errorTitle": "Continue",
+			"statusCode": 100
+		},
+		{
+			"errorTitle": "Switching Protocols",
+			"statusCode": 101
+		},
+		{
+			"errorTitle": "Multiple Choices",
+			"statusCode": 300
+		},
+		{
+			"errorTitle": "Moved Permanently",
+			"statusCode": 301
+		},
+		{
+			"errorTitle": "Found",
+			"statusCode": 302
+		},
+		{
+			"errorTitle": "See Other",
+			"statusCode": 303
+		},
+		{
+			"errorTitle": "Not Modified",
+			"statusCode": 304
+		},
+		{
+			"errorTitle": "Use Proxy",
+			"statusCode": 305
+		},
+		{
+			"errorTitle": "Switch Proxy",
+			"statusCode": 306
+		},
+		{
+			"errorTitle": "Temporary Redirect",
+			"statusCode": 307
+		},
+		{
+			"errorTitle": "Permanent Redirect",
+			"statusCode": 308
+		},
+		{
+			"errorTitle": "Bad Request",
+			"statusCode": 400
+		},
+		{
+			"errorTitle": "Unauthorized",
+			"statusCode": 401
+		},
+		{
+			"errorTitle": "Forbidden",
+			"statusCode": 403
+		},
+		{
+			"errorTitle": "Not Found",
+			"statusCode": 404
+		},
+		{
+			"errorTitle": "Method Not Allowed",
+			"statusCode": 405
+		},
+		{
+			"errorTitle": "Not Acceptable",
+			"statusCode": 406
+		},
+		{
+			"errorTitle": "Request Timeout",
+			"statusCode": 408
+		},
+		{
+			"errorTitle": "Conflict Already Exists",
+			"statusCode": 409
+		},
+		{
+			"errorTitle": "Gone",
+			"statusCode": 410
+		},
+		{
+			"errorTitle": "Length Required",
+			"statusCode": 411
+		},
+		{
+			"errorTitle": "Precondition Failed",
+			"statusCode": 412
+		},
+		{
+			"errorTitle": "Request Entity Too Large",
+			"statusCode": 413
+		},
+		{
+			"errorTitle": "Request-URI Too Long",
+			"statusCode": 414
+		},
+		{
+			"errorTitle": "Unsupported Media Type",
+			"statusCode": 415
+		},
+		{
+			"errorTitle": "Requested Range Not Satisfiable",
+			"statusCode": 416
+		},
+		{
+			"errorTitle": "Expectation Failed",
+			"statusCode": 417
+		},
+		{
+			"errorTitle": "Unprocessable Entity",
+			"statusCode": 422
+		},
+		{
+			"errorTitle": "Locked",
+			"statusCode": 423
+		},
+		{
+			"errorTitle": "Failed Dependency",
+			"statusCode": 424
+		},
+		{
+			"errorTitle": "Unordered Collection",
+			"statusCode": 425
+		},
+		{
+			"errorTitle": "Upgrade Required",
+			"statusCode": 426
+		},
+		{
+			"errorTitle": "Retry With",
+			"statusCode": 449
+		},
+		{
+			"errorTitle": "Blocked by Windows Parental Controls",
+			"statusCode": 450
+		},
+		{
+			"errorTitle": "Internal Server Error",
+			"statusCode": 500
+		},
+		{
+			"errorTitle": "Not Implemented",
+			"statusCode": 501
+		},
+		{
+			"errorTitle": "Bad Gateway",
+			"statusCode": 502
+		},
+		{
+			"errorTitle": "Service Unavailable",
+			"statusCode": 503
+		},
+		{
+			"errorTitle": "Gateway Timeout",
+			"statusCode": 504
+		},
+		{
+			"errorTitle": "HTTP Version Not Supported",
+			"statusCode": 505
+		},
+		{
+			"errorTitle": "Variant Also Negotiates",
+			"statusCode": 506
+		},
+		{
+			"errorTitle": "Insufficient Storage",
+			"statusCode": 507
+		},
+		{
+			"errorTitle": "Bandwidth Limit Exceeded",
+			"statusCode": 509
+		},
+		{
+			"errorTitle": "Not Extended",
+			"statusCode": 510
+		},
+		{
+			"errorTitle": "Network Authentication Required",
+			"statusCode": 511
+		},
+		{
+			"errorTitle": "SYNAPSE General",
+			"statusCode": 600
+		},
+		{
+			"errorTitle": "SYNAPSE Maitenance",
+			"statusCode": 601
+		},
+		{
+			"errorTitle": "SYNAPSE Version Control",
+			"statusCode": 602
+		},
+		{
+			"errorTitle": "SYNAPSE Ban",
+			"statusCode": 603
+		}
+	]
+}
