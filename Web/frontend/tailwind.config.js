@@ -5,6 +5,16 @@ module.exports = {
   ],
 	theme: {
 		extend: {
+			boxShadow: {
+				'3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
+			  },
+			screens: {
+				mobile: "320px",
+				tablet: "480px",
+				laptop: "770px",
+				desktop: "1024px",
+				xl: "1200px",
+			},
 			aspectRatio: {
 				'20/9': '20 / 9',
 			},
@@ -20,7 +30,7 @@ module.exports = {
 
 				// TODO: Update these colors
 				// -------------------------
-				primary: "#24c8b4", // greenish teal - 1st color in gradient
+				primary: "#2A965A", // greenish teal - 1st color in gradient
 				secondary: "#48a5c8", // light blue - 2nd color in gradient
 				tertiary: "#2470ff", // blue - 3rd color in gradient
 				accent1: "#6012e6", // purple - for buttons, links, etc

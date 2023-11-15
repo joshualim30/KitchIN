@@ -1,79 +1,94 @@
-import React from 'react'
-import Button from './Button';
-import {useState} from 'react';
-import Logo from '../images/Logo.jpg';
-import { useEffect } from 'react';
+import { useState } from "react";
+
+export const navLinks = [
+  {
+    id: "home",
+    title: "Home",
+  },
+  {
+    id: "features",
+    title: "Features",
+  },
+  {
+    id: "product",
+    title: "Product",
+  },
+  {
+    id: "clients",
+    title: "Clients",
+  },
+];
 
 const Navbar = () => {
-    const [open, setOpen] = useState(false);
-
-    const onToggleMenu = () => {
-        console.log('clicked');
-        setOpen(!open);
-    }
-
-    useEffect(() => {
-
-        // check which page is active
-        let page = window.location.pathname;
-        console.log(page);
-
-            // check for sign-in button click
-    let signIn = document.getElementById('sign-in');
-    signIn.addEventListener('click', () => {
-        console.log('clicked');
-    }); 
-
-        if(open){
-            const navLinks = document.querySelector('.nav-links');
-            navLinks.classList.toggle('top-[9%]');
-        }else{
-            const navLinks = document.querySelector('.nav-links');
-            navLinks.classList.toggle('top-[9%]');
-        }
-    });
+  const [active, setActive] = useState("Home");
+  const [toggle, setToggle] = useState(false);
 
   return (
-    
-<section id="nav" className="">
-    <div className="font-[Poppins] bg-gray-200 h-auto p-2">
-        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-        <div className="">
-        <nav className="flex justify-between items-center mx-auto">
-            <div>
-                <img className="ml-8 w-10 cursor-pointer" src={require('../images/Logo.jpg')} alt="..."/>
-            </div>
-            <div
-                className="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
-                <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
-                    <li>
-                        <a className="hover:text-gray-500 font-CreteRoundRegular" href="#">Products</a>
-                    </li>
-                    <li>
-                        <a className="hover:text-gray-500" href="#">Solution</a>
-                    </li>
-                    <li>
-                        <a className="hover:text-gray-500" href="#">Resource</a>
-                    </li>
-                    <li>
-                        <a className="hover:text-gray-500" href="#">Developers</a>
-                    </li>
-                    <li>
-                        <a className="hover:text-gray-500" href="#">Pricing</a>
-                    </li>
-                </ul>
-            </div>
-                    <div className="flex items-center gap-6">
-                        <button id="sign-in" className="bg-green-600 text-white font-CreteRoundRegular px-5 py-2 rounded-full hover:bg-green-800">Sign in</button>
-                        {/* <button onClick={onToggleMenu} name="menu" className="text-3xl cursor-pointer md:hidden">H</button> */}
-                        <button onClick={onToggleMenu} name="menu" className="text-3xl cursor-pointer md:hidden">H</button>
-                    </div>
-                </nav>
-            </div>
+    <nav className="bg-primary w-full flex py-4 px-4 justify-between items-center navbar">
+      {/* Logo */}
+      <div className="flex inline-block items-center">
+                <img className="w-8 cursor-pointer shadow-2xl" src={require('../images/logo.png')} alt="..."/>
+                <h1 className="font-CreteRoundRegular text-white text-xl ml-2">KitchIN</h1>
         </div>
+      
+      {/* Desktop Navigation */}
+      <ul className="list-none sm:flex hidden justify-center items-center flex-1">
+        {navLinks.map((nav, index) => (
+          <li
+            key={nav.id}
+            className={`font-poppins font-CreteRoundRegular px-2 cursor-pointer text-[16px] hover:text-gray-200 ${
+              active === nav.title ? "text-white" : "text-white"
+            } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}
+            ${active===nav.title ? "underline underline-offset-4 decoration-4" : ""}
+            `}
+            onClick={() => setActive(nav.title)}
+          >
+            <a href={`${nav.id}`}>{nav.title}</a>
+          </li>
+        ))}
+      </ul>
 
-    </section>
-  )
-}
+    <div className="flex mobile:ml-40 md:ml-0">
+    <button id="sign-in" className="bg-white text-green-600 font-CreteRoundRegular px-5 py-2 rounded-full hover:bg-green-800">Sign in</button>
 
-export default Navbar
+    </div>
+
+
+      {/* Mobile Navigation */}
+      <div className="sm:hidden flex flex-1 justify-end items-center">
+        <img
+          src={toggle ? require("../images/close.jpeg") : require("../images/menu.jpeg")}
+          alt="menu"
+          className="w-[28px] h-[28px] object-contain"
+          onClick={() => setToggle(!toggle)}
+        />
+
+        {/* Sidebar */}
+        <div
+          className={`${
+            !toggle ? "hidden" : "flex"
+          } p-6 bg-[#141414] bg-dark absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+        >
+          <ul className="list-none flex justify-end items-start flex-1 flex-col">
+            {navLinks.map((nav, index) => (
+              <li
+                key={nav.id}
+                className={`font-poppins font-medium cursor-pointer text-[16px] ${
+                  active === nav.title ? "text-green-500" : "text-green-500"
+                } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}
+                ${active===nav.title ? "underline underline-offset-4 decoration-4" : ""}
+
+                `}
+                onClick={() => setActive(nav.title)}
+              >
+                <a href={`${nav.id}`}>{nav.title}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;
