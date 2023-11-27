@@ -49,7 +49,7 @@ const Navbar = () => {
       </ul>
 
     <div className="flex mobile:ml-40 md:ml-0">
-    <button id="sign-in" className="bg-white text-green-600 font-CreteRoundRegular px-5 py-2 rounded-full hover:bg-green-800">Sign in</button>
+    <a href="/auth"><button id="sign-in" className="bg-white text-green-600 font-CreteRoundRegular px-5 py-2 rounded-full hover:bg-green-800">Portal</button></a>
 
     </div>
 
